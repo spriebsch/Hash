@@ -37,7 +37,7 @@
 
     <target name="test" depends="init" description="Runs the unit tests">
         <exec executable="phpunit" failonerror="true">
-            <arg value="--configuration phpunit.xml"/>
+            <arg value=""/>
         </exec>
     </target>
     
